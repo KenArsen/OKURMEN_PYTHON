@@ -12,9 +12,9 @@ print("Info about you")
 print("Name:", fist_name, last_name)
 print("Phone:", phone)
 print("Email:", email)
-print("Age:", age)
-print("Height:", height)
-print("Weight:", weight)
+print("Age:", age, 'jash')
+print("Height:", height, "m")
+print("Weight:", weight, 'kg')
 
 # 2 - Тапшырма
 print("\n")
