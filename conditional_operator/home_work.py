@@ -18,3 +18,8 @@
 
 password_1 = input("Парольду жазыныз: ")
 password_2 = input("Кайталап жазыныз: ")
+
+if password_1 == password_2:
+    print("Пароль кабыл алынды")
+else:
+    print("Пароль кабыл алынган жок.")
