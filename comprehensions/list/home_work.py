@@ -8,6 +8,17 @@
 Жооп:
 Талас Нарын Ысык-Кол Баткен
 '''
+
+# names = [i for i in input().split()]
+# list_names = []
+# for name in names:
+#     if len(name) >= 5:
+#         list_names.append(name)
+# print(list_names)
+
+# print([name for name in input().split() if len(name) >= 5])
+
+
 # 2 - тапшырма
 '''
 Бизге консольдон узундуктары бирдей болгон
@@ -28,5 +39,8 @@
 индекси туура келген элементерин кошуп 
 башка массивге жаздык
 '''
+list_1 = [i for i in input().split()]
+list_2 = [i for i in input().split()]
+print([int(list_1[i]) + int(list_2[i]) for i in range(len(list_1))])
 
 
