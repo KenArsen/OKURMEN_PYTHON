@@ -44,21 +44,21 @@ print(t_1(), t_2())
 
 
 
-def limited_calls(func, n):
+def limited_calls(func_1, n):
     def limit():
         nonlocal n
         n -= 1
         if n < 0:
             print("Limit reached")
         else:
-            func()
+            func_1()
     return limit
 
 def func():
     print("Function was called")
 
 
-a = limited_calls(func=func, n=5)
+a = limited_calls(func_1=func, n=5)
 a()
 a()
 a()
