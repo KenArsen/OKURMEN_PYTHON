@@ -11,8 +11,14 @@
 6
 """
 
+# import math
+from math import ceil
+n = float(input("Введите одно число: "))
+# print(math.ceil(n))
+print(ceil(n))
 
-# 1 - тапшырма 
+
+# 2 - тапшырма 
 """
 Программага random модулунан seed жана randint функцияларын гана импорттоо керек. 
 Андан кийин, бул функцияларды төмөнкүдөй аткарыңыз:
@@ -20,3 +26,7 @@
 seed(1)
 print(randint(10, 50))
 """
+
+from random import randint, seed
+seed(1)
+print(randint(10, 50))
