@@ -1,3 +1,6 @@
+from lesson_4.file_2 import get_person
+print(get_person(name="arsen"))
+
 def test(a, b, c, d):
     print(a, b, c, d)
 
