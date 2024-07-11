@@ -26,12 +26,9 @@ try:
     file.close()
 except FileNotFoundError:
     print("Невозможно открыть файл")
-except:
+except Exception:
     print("Ошибка при работе с файлом")
 finally:
     print(file.closed)
     file.close()
     print(file.closed)
-
-
-
