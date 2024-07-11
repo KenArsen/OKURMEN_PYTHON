@@ -39,3 +39,6 @@ my_map = get_time(func=my_map)
 my_map(nums=n)
 my_list = get_time(func=my_list)
 my_list(nums=n)
+
+
+
