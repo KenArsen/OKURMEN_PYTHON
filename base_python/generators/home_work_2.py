@@ -5,6 +5,7 @@
 Биринчилерден уникалдуу элементтерди табып
 жана сорттоп чыгарыныздар.
 """
+# print(sorted({int(i) for i in input().split()}))
 
 
 """
@@ -15,3 +16,5 @@
 сумма ар бир элементке бөлүнүп жатканын текшериниздер.
 Эгер баарына болунсо True болбосо False чыгарынзыдар!
 """
+numbers = map(int, input().split())
+print(all(map(lambda x: sum(numbers) % x == 0, numbers)))
